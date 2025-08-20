@@ -1,0 +1,136 @@
+[2025-08-19 19:43:57.484] [info]  No state version found, assuming empty state.
+[2025-08-19 19:43:57.557] [info]  Coredumps are disabled in renderer process
+[2025-08-19 19:43:57.557] [info]  Disabling memory dumps in main process
+[2025-08-19 19:43:59.247] [info]  [Native Messaging IPC] Clearing connected apps
+[2025-08-19 19:43:59.248] [info]  State version: 72
+[2025-08-19 19:43:59.334] [info]  Retrieving application id
+[2025-08-19 19:44:05.799] [info]  Retrieving application id
+[2025-08-19 19:44:05.804] [info]  Retrieving application id
+[2025-08-19 19:44:06.972] [info]  Retrieving application id
+[2025-08-19 19:44:07.503] [info]  [KeyService] Deriving master key took 217ms
+[2025-08-19 19:44:07.506] [info]  Retrieving application id
+[2025-08-19 19:44:14.526] [info]  Using SignalR for notifications
+[2025-08-19 19:44:14.796] [info]  [CipherService] Decrypting 0 ciphers took 0ms
+[2025-08-19 19:44:14.815] [info]  [SearchService] Building search index of 0 ciphers took 18ms
+[2025-08-19 19:44:14.830] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 19:44:14.830] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 19:46:19.381] [info]  State version: 72
+[2025-08-19 19:46:19.384] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2025-08-19 19:46:19.384] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2025-08-19 19:46:19.384] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2025-08-19 19:46:19.384] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2025-08-19 19:46:19.384] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2025-08-19 19:46:19.384] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2025-08-19 19:46:19.384] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2025-08-19 19:46:19.385] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2025-08-19 19:46:19.386] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator MigrateIncorrectFolderKey (to version 69) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator RemoveAcBannersDismissed (to version 70) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator RemoveNewCustomizationOptionsCalloutDismissed (to version 71) should migrate: false - up
+[2025-08-19 19:46:19.387] [info]  Migrator RemoveAccountDeprovisioningBannerDismissed (to version 72) should migrate: false - up
+[2025-08-19 19:46:19.465] [info]  Coredumps are disabled in renderer process
+[2025-08-19 19:46:19.465] [info]  Disabling memory dumps in main process
+[2025-08-19 19:46:20.842] [info]  [Native Messaging IPC] Clearing connected apps
+[2025-08-19 19:46:20.844] [info]  State version: 72
+[2025-08-19 19:46:27.163] [info]  [KeyService] Deriving master key took 215ms
+[2025-08-19 19:46:27.166] [error] Error: Invalid master password
+[2025-08-19 19:46:43.877] [info]  [KeyService] Deriving master key took 192ms
+[2025-08-19 19:46:43.885] [info]  Using SignalR for notifications
+[2025-08-19 19:46:44.275] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 19:46:44.276] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 19:46:44.921] [info]  [LockComponent] Sync took 1018ms
+[2025-08-19 19:46:44.921] [info]  [LockComponent] Private key regeneration took 0ms
+[2025-08-19 19:46:44.949] [info]  [CipherService] Decrypting 0 ciphers took 0ms
+[2025-08-19 19:46:44.959] [info]  [SearchService] Building search index of 0 ciphers took 9ms
+[2025-08-19 19:47:59.224] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 19:49:51.006] [error] Unhandled error in angular Error: Cannot set property selectedOption of [object Object] which has only a getter
+[2025-08-19 19:49:59.146] [info]  [CipherService] Decrypting 0 ciphers took 0ms
+[2025-08-19 19:49:59.147] [info]  [SearchService] Building search index of 0 ciphers took 0ms
+[2025-08-19 19:49:59.151] [info]  [CipherService] Decrypting 0 ciphers took 0ms
+[2025-08-19 19:49:59.151] [info]  [SearchService] Building search index of 0 ciphers took 0ms
+[2025-08-19 19:49:59.156] [info]  [CipherService] Decrypting 0 ciphers took 0ms
+[2025-08-19 19:49:59.156] [info]  [SearchService] Building search index of 0 ciphers took 0ms
+[2025-08-19 19:49:59.226] [info]  Window not available in BulkEncryptService, decrypting sequentially
+[2025-08-19 19:49:59.269] [info]  [CipherService] Decrypting 845 ciphers took 43ms
+[2025-08-19 19:49:59.332] [info]  [SearchService] Building search index of 845 ciphers took 54ms
+[2025-08-19 19:51:21.138] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 19:51:21.139] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 19:54:43.805] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 19:57:54.695] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 19:57:54.695] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 20:01:31.197] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 20:04:49.357] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 20:04:49.357] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 20:08:25.531] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 20:13:03.055] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 20:13:03.056] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 20:15:26.418] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 20:18:37.189] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 20:18:37.189] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 20:22:12.739] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 20:25:49.621] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 20:25:49.621] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 20:29:14.519] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 20:31:45.255] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 20:31:45.255] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 20:35:53.370] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.
+[2025-08-19 20:38:56.675] [info]  [SignalR] WebSocket connected to wss://notifications.bitwarden.com/hub?access_token=[REDACTED]
+[2025-08-19 20:38:56.675] [info]  [SignalR] Using HubProtocol 'messagepack'.
+[2025-08-19 20:42:51.377] [error] [SignalR] Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'.

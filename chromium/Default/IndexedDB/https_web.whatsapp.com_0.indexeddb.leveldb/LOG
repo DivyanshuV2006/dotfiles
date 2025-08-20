@@ -1,0 +1,22 @@
+2025/08/14-18:30:37.310 4981 Reusing MANIFEST /home/divyanshu/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/14-18:30:37.310 4981 Recovering log #42
+2025/08/14-18:30:37.319 4981 Reusing old log /home/divyanshu/.config/chromium/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000042.log 
+2025/08/14-18:30:38.056 4981 Level-0 table #47: started
+2025/08/14-18:30:38.060 4981 Level-0 table #47: 356465 bytes OK
+2025/08/14-18:30:38.061 4981 Delete type=0 #42
+2025/08/14-18:30:38.061 4981 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/14-18:30:38.062 4981 Level-0 table #49: started
+2025/08/14-18:30:38.063 4981 Level-0 table #49: 503 bytes OK
+2025/08/14-18:30:38.064 4981 Delete type=0 #46
+2025/08/14-18:30:38.064 4981 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 113397 : 0
+2025/08/14-18:30:38.064 4981 Compacting 1@0 + 1@1 files
+2025/08/14-18:30:38.069 4981 Generated table #50@0: 12138 keys, 209169 bytes
+2025/08/14-18:30:38.069 4981 Compacted 1@0 + 1@1 files => 209169 bytes
+2025/08/14-18:30:38.070 4981 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/14-18:30:38.070 4981 Delete type=2 #49
+2025/08/14-18:30:38.071 4981 Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 113397 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/14-18:30:38.814 4982 Compacting 1@1 + 1@2 files
+2025/08/14-18:30:38.829 4982 Generated table #51@1: 25247 keys, 1342308 bytes
+2025/08/14-18:30:38.829 4982 Compacted 1@1 + 1@2 files => 1342308 bytes
+2025/08/14-18:30:38.830 4982 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/14-18:30:38.830 4982 Delete type=2 #47
