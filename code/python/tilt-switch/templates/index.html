@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tilt Sensor Dashboard</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        #status { font-size: 3em; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Tilt Sensor Dashboard</h1>
+    <div id="status">Loading...</div>
+
+    <script>
+        async function update() {
+            try {
+                const res = await fetch("/tilt");
+                const data = await res.json();
+                const statusDiv = document.getElementById("status");
+                statusDiv.innerText = data.tilt;
+                statusDiv.style.color = data.tilt === "TILTED" ? "red" : "green";
+            } catch (err) {
+                console.error("Error fetching tilt:", err);
+            }
+        }
+        setInterval(update, 500); // update every 0.5s
+        update(); // initial call
+    </script>
+</body>
+</html>
