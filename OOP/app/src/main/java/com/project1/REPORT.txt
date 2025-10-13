@@ -1,0 +1,23 @@
+Grocery List Management Project
+Authors: Divyanshu Verma, Aidan da Costa
+
+1. Collaboration Details
+
+Collaborator: Aidan da Costa
+Level of Collaboration: Large
+
+We worked together on most parts of this grocery list project. We talked about how to set up the program and decided to use arrays to store the items. We discussed how how to write different methods and helped each other when we got stuck. We also tested the program together to make sure everything worked right. Both of us gave help and got help from each other pretty equally throughout the project.
+
+2. Do you think everything you did is correct?
+
+Yes, I think everything is working correctly.
+The program can add items to the list and won't let you add the same item twice. You can remove items either by typing the name or the number, and it moves the other items up in the list properly. The check off feature works and shows an x when an item is checked off. The display shows the list with numbers and check marks. It handles empty lists okay and doesn't crash when you type invalid stuff.
+We tested it by trying different things like adding the same item twice, removing items different ways, and checking off items. Everything seemed to work fine.
+
+3. Comments
+
+The hardest part was probably dealing with user input. We had to figure out how to handle both numbers and names when someone wants to remove or check off an item. The try catch stuff was kind of confusing at first.
+Another tricky thing was making sure when we remove an item from the middle of the list, all the other items shift over correctly. We had to be careful that both arrays stayed matched up.
+Making the program easy to use took some work too. We wanted the menus and messages to be clear so people wouldn't get confused.
+Some things that could make this assignment more interesting would be adding categories for different types of food, or maybe letting people save their lists to a file. It would also be cool to add prices or make it work with a phone app.
+This project was good practice for working with arrays and handling user input. It also helped us learn how to work together on coding projects.
