@@ -150,7 +150,8 @@ alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=dow
 alias docker-clean='docker container prune -f; docker image prune -f; docker network prune -f; docker volume prune -f'
 alias about="fastfetch"
 alias storage="qdirstat"
-
+alias titus="curl -fsSL https://christitus.com/linux | sh"
+alias remove="curl -fsSL https://raw.githubusercontent.com/maxart/omarchy-cleaner/main/omarchy-cleaner.sh | bash"
 #######################################################
 # FUNCTIONS (ALL PRESERVED)
 #######################################################
