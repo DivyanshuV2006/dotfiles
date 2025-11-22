@@ -190,7 +190,7 @@ whatsmyip() {
 alias whatismyip="whatsmyip"
 
 # Override cd to auto-ls using zoxide
-cd() { z "$@" || builtin cd "$@" && ls; }
+cd() { z "$@" && ls; }
 
 # Lazy-load heavy stuff
 lazy_starship() { command -v starship &>/dev/null && eval "$(starship init bash)"; }
